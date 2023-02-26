@@ -25,7 +25,7 @@ The Chapman Richards module is a tier 3 module. This tier 3 module uses the Chap
 
 The Chapman-Richards equation, which allows us to calculate the above-ground and below-ground biomass, can be expressed mathematically below.
 
-``AGC = * [ 1 - e ^ { -k *Age } ] ^ { ( 1 / (1-m) }``
+``AGC = max * [ 1 - e ^ { -k *Age } ] ^ { ( 1 / (1-m) }``
 
 Where :
 
